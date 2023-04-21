@@ -1,0 +1,51 @@
+@mixin colorVsFont {
+    color: #fff;
+    font-size: 50px;
+}
+
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #dadada;
+
+    .Logo{
+    list-style: none;
+    width: 50px;
+    object-fit: scale-down;
+    margin-left: 5%;
+    }
+    h6{
+        margin-right: 2%;
+    }
+    .navbb{
+        margin-left: auto;
+        margin-right: 2%;
+        padding: 25px;
+        font-weight: 700;
+        a{
+            color: aliceblue;
+            padding:inherit;
+            text-decoration: none;
+        }
+        :hover{
+            color: rgb(252, 128, 128);
+            background-color: #1d1c1c;
+        }
+        :active{
+            color: red;
+        }
+
+    }
+    .text-logo{
+    color: orange;
+    margin-left: 3%;
+    
+}
+}

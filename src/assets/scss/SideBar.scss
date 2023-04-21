@@ -1,0 +1,25 @@
+
+
+.sidebar-main{
+    position: sticky;
+    left: 0;
+    color: red;
+    background-color: rgb(226, 226, 226);
+    font-size: large;
+    width: 10em;
+    min-width: max-content;
+    max-width: 15vw;
+    
+    .nav-menu-items{
+        list-style: none;
+        text-align: center;
+        padding: 0%;
+        li{
+            background-color: green;
+            padding: 20px
+        }
+        :hover{
+            background-color: rebeccapurple;
+        }
+    }
+}

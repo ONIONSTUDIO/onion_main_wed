@@ -1,0 +1,22 @@
+@import 'SideBar.scss';
+@import 'TopBar.scss';
+@import 'Footer.scss';
+@import 'Nipage.scss';
+
+.container{
+    background-color: pink;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.page-layout{
+    color: green;
+    background-color: rgba(255, 235, 198, 0.573);
+    flex-grow: 1;
+}
+
+body{
+    background-color: rgb(214, 214, 255);
+}
