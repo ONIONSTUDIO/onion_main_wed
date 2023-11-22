@@ -4,6 +4,7 @@ import ERRORLayout from "../components/Layout/ErrorLayout";
 import HomePageLayout from "../components/Layout/HomePageLayout";
 import MainLayout from "../components/Layout/MainLayout";
 import { pathData } from "../data/RoutesPathData";
+import { CountDown } from "../pages/countdown/coundown";
 import { View } from "../pages/view/View";
 
 export function RoutesPath() {
@@ -23,6 +24,7 @@ export function RoutesPath() {
             <Route path=":id" element={<View/>}></Route>
         </Route>
         <Route path="*" element={<ERRORLayout/>}/>
+        <Route path="countdown" element={<CountDown/>}/>
     </Routes>
     </BrowserRouter>
     )

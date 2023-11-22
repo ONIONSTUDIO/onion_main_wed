@@ -23,4 +23,5 @@ export const pathData = [
         path: 'work',
         element: <Work/>
     }
+
 ]
